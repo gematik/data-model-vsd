@@ -1,0 +1,42 @@
+buildscript {
+    dependencies {
+        classpath "de.gematik:gematik-parent-plugin:1.1.3"
+        classpath "de.gematik:documentation-plugin:1.1.2"
+    }
+}
+
+
+apply plugin: "de.gematik.parent"
+apply plugin: "de.gematik.publish"
+
+description = """DataModel-VSD"""
+group = 'de.gematik.ti'
+
+dependencies {
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
+}
+
+gematikPublish {
+    name = "Data Model VSD Java"
+    description = "The VSD (Versichertenstammdaten) data model schema and xml deserialization."
+    gitHubProjectName = "data-model-vsd"
+}
+
+task sourceJar(type: Jar) {
+    archiveClassifier.set("sources")
+    from "${project.buildDir}/../src/main/java/"
+    include "**/*.java"
+}
+
+task javadocJar(type: Jar) {
+    archiveClassifier.set("javadoc")
+    from "${project.buildDir}/docs/javadoc/"
+    into "${project.name}"
+}
+
+
+artifacts {
+    archives sourceJar
+    archives javadocJar
+}

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Mit XMLSpy v2014 rel. 2 sp1 (http://www.altova.com) von Gematik GmbH (Gematik) bearbeitet -->
+<!--XML-Beispieldatei von XMLSpy generiert v2014 rel. 2 sp1 (http://www.altova.com)-->
+<NFD_Document xmlns="http://ws.gematik.de/fa/nfds/NFD_Document/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+			  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			  xmlns:n1="http://www.altova.com/samplexml/other-namespace"
+			  xmlns:NFDM="http://ws.gematik.de/fa/nfds/common/NFDM_Common/v1.0" NFD_Version="0.0.0"
+			  xsi:schemaLocation="http://ws.gematik.de/fa/nfds/NFD_Document/v1.0 NFD_Document.xsd">
+	<Notfalldaten ID_NFD="a" ID="ID1" NFD_letzte_Aktualisierung_date="1957-08-13"
+				  NFD_letzte_Aktualisierung_time="09:30:47+05:00">
+		<NFD_Versicherter>
+			<NFDM:Versicherter>
+				<NFDM:Versicherten_ID>A000000000</NFDM:Versicherten_ID>
+				<NFDM:Geburtsdatum>19670813</NFDM:Geburtsdatum>
+				<NFDM:Vorname>Johann-Georg Wilhelm</NFDM:Vorname>
+				<NFDM:Nachname>Kritzepetrowski-Helmbichler</NFDM:Nachname>
+				<NFDM:Vorsatzwort>von</NFDM:Vorsatzwort>
+				<NFDM:Namenszusatz>Freiherr</NFDM:Namenszusatz>
+				<NFDM:Titel>Prof. Dr. </NFDM:Titel>
+				<NFDM:Geschlecht>M</NFDM:Geschlecht>
+			</NFDM:Versicherter>
+			<NFD_Behandelnder_Arzt_Institution BAI_Art="Institution">
+				<NFD_BAI_Arzt_Nachname>Müller-Holzscheit</NFD_BAI_Arzt_Nachname>
+				<NFD_BAI_Arzt_Vorname>Marcello-Bernhardino</NFD_BAI_Arzt_Vorname>
+				<NFD_BAI_Institution_Bezeichnung>Höhenklinik Alpenglück</NFD_BAI_Institution_Bezeichnung>
+				<NFD_BAI_Arzt_Bezeichnung>Stationsleitung</NFD_BAI_Arzt_Bezeichnung>
+				<NFD_BAI_Adresse>
+					<NFDM:Adresse>
+						<NFDM:Postleitzahl>98765</NFDM:Postleitzahl>
+						<NFDM:Ort>Oberstubbling</NFDM:Ort>
+						<NFDM:Strasse>Bergstr.</NFDM:Strasse>
+						<NFDM:Hausnummer>90</NFDM:Hausnummer>
+						<NFDM:Anschriftenzusatz>Haupthaus</NFDM:Anschriftenzusatz>
+						<NFDM:Wohnsitzlaendercode>DE</NFDM:Wohnsitzlaendercode>
+					</NFDM:Adresse>
+				</NFD_BAI_Adresse>
+				<NFD_BAI_Kommunikation>
+					<NFDM:Kommunikationsdaten>
+						<NFDM:Telefonnummer>0987/6544</NFDM:Telefonnummer>
+						<NFDM:Faxnummer>0987/6555</NFDM:Faxnummer>
+						<NFDM:E-Mail>Stationsleitung@Klinik_Alpenglueck.com</NFDM:E-Mail>
+					</NFDM:Kommunikationsdaten>
+				</NFD_BAI_Kommunikation>
+			</NFD_Behandelnder_Arzt_Institution>
+			<NFD_Behandelnder_Arzt_Institution BAI_Art="Arzt">
+				<NFD_BAI_Arzt_Nachname>Frankenstein</NFD_BAI_Arzt_Nachname>
+				<NFD_BAI_Arzt_Vorname>Berthold</NFD_BAI_Arzt_Vorname>
+				<NFD_BAI_Institution_Bezeichnung>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</NFD_BAI_Institution_Bezeichnung>
+				<NFD_BAI_Arzt_Bezeichnung>Hausarzt</NFD_BAI_Arzt_Bezeichnung>
+				<NFD_BAI_Adresse>
+					<NFDM:Adresse>
+						<NFDM:Postleitzahl>12345</NFDM:Postleitzahl>
+						<NFDM:Ort>Steinhausen am Wald</NFDM:Ort>
+						<NFDM:Strasse>Hochwaldstraße</NFDM:Strasse>
+						<NFDM:Hausnummer>12</NFDM:Hausnummer>
+						<NFDM:Anschriftenzusatz>Hinterhaus, III. Etage, links</NFDM:Anschriftenzusatz>
+						<NFDM:Wohnsitzlaendercode>DE</NFDM:Wohnsitzlaendercode>
+					</NFDM:Adresse>
+				</NFD_BAI_Adresse>
+				<NFD_BAI_Kommunikation>
+					<NFDM:Kommunikationsdaten>
+						<NFDM:Telefonnummer>0987/6544</NFDM:Telefonnummer>
+						<NFDM:Faxnummer>0987/6545</NFDM:Faxnummer>
+						<NFDM:E-Mail>B.Frankenstein@mydoctor.com</NFDM:E-Mail>
+					</NFDM:Kommunikationsdaten>
+				</NFD_BAI_Kommunikation>
+			</NFD_Behandelnder_Arzt_Institution>
+			<NFD_Benachrichtigungskontakt>
+				<NFD_BK_Bezeichnung>Tochter</NFD_BK_Bezeichnung>
+				<NFD_BK_Nachname>von Huber</NFD_BK_Nachname>
+				<NFD_BK_Vorname>Chantal-Eileen</NFD_BK_Vorname>
+				<NFD_BK_Kommunikation>
+					<NFDM:Kommunikationsdaten>
+						<NFDM:Telefonnummer>0987/543</NFDM:Telefonnummer>
+						<NFDM:Faxnummer>aaaaaaaaaaaaaaaaaaaaaaaaa</NFDM:Faxnummer>
+						<NFDM:E-Mail>chantal@daisy_chain.com</NFDM:E-Mail>
+					</NFDM:Kommunikationsdaten>
+				</NFD_BK_Kommunikation>
+			</NFD_Benachrichtigungskontakt>
+			<NFD_Versicherter_Kommunikation>
+				<NFDM:Kommunikationsdaten>
+					<NFDM:Telefonnummer>0987/65412</NFDM:Telefonnummer>
+					<NFDM:Faxnummer>aaaaaaaaaaaaaaaaaaaaaaaaa</NFDM:Faxnummer>
+					<NFDM:E-Mail>JGW.Kritze@Alter-Adel.de</NFDM:E-Mail>
+				</NFDM:Kommunikationsdaten>
+			</NFD_Versicherter_Kommunikation>
+		</NFD_Versicherter>
+		<NFD_Versicherter_Einwilligung>
+			<NFD_VE_Arzt_Nachname>Meyer</NFD_VE_Arzt_Nachname>
+			<NFD_VE_Arzt_Vorname>Eberhard</NFD_VE_Arzt_Vorname>
+			<NFD_VE_Adresse>
+				<NFDM:Adresse>
+					<NFDM:Postleitzahl>54321</NFDM:Postleitzahl>
+					<NFDM:Ort>Hannova</NFDM:Ort>
+					<NFDM:Strasse>Bahnhofstr</NFDM:Strasse>
+					<NFDM:Hausnummer>13</NFDM:Hausnummer>
+					<NFDM:Anschriftenzusatz>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</NFDM:Anschriftenzusatz>
+					<NFDM:Wohnsitzlaendercode>DE</NFDM:Wohnsitzlaendercode>
+				</NFDM:Adresse>
+			</NFD_VE_Adresse>
+		</NFD_Versicherter_Einwilligung>
+		<NFD_Befunddaten>
+			<Besondere_Hinweise>
+				<Schwangerschaft>
+					<Entbindungstermin_Errechnet xsi:nil="true"/>
+					<Schwangerschaft>0</Schwangerschaft>
+					<diagnostiziert_indiziert DI_Art="Arzt">
+						<DI_Arzt>
+							<DI_Arzt_Name>Kraxenbichler-Tupfa</DI_Arzt_Name>
+							<DI_Arzt_Fachgebiet>Innere Medizin</DI_Arzt_Fachgebiet>
+							<DI_Arzt_Ort>Bad Entenhausen</DI_Arzt_Ort>
+						</DI_Arzt>
+					</diagnostiziert_indiziert>
+				</Schwangerschaft>
+				<Implantate>
+					<Datum_Implantation xsi:nil="false ">1999-12-01</Datum_Implantation>
+					<Implantate>VP-Shunt</Implantate>
+					<Typenbezeichnung>Typ Medtronic Strata® Adjustable Pressure Valve</Typenbezeichnung>
+					<diagnostiziert_indiziert DI_Art="Institution">
+						<DI_Institution>
+							<DI_Institution_Name>Uniklinikum Mannheim</DI_Institution_Name>
+							<DI_Institution_Fachabteilung>Abteilung für Neurochirurgie</DI_Institution_Fachabteilung>
+							<DI_Institution_Ort>Mannheim</DI_Institution_Ort>
+						</DI_Institution>
+					</diagnostiziert_indiziert>
+				</Implantate>
+				<Implantate>
+					<Datum_Implantation xsi:nil="false ">2002-02-02</Datum_Implantation>
+					<Implantate>ICD Kardioverter-Defibrillator</Implantate>
+					<Typenbezeichnung>St. Jude Medical Current Accel</Typenbezeichnung>
+					<diagnostiziert_indiziert DI_Art="Institution">
+						<DI_Institution>
+							<DI_Institution_Name>Uniklinikum Mannheim</DI_Institution_Name>
+							<DI_Institution_Fachabteilung>Abteilung für Orthopädie</DI_Institution_Fachabteilung>
+							<DI_Institution_Ort>Mannheim</DI_Institution_Ort>
+						</DI_Institution>
+					</diagnostiziert_indiziert>
+				</Implantate>
+				<Implantate>
+					<Datum_Implantation xsi:nil="false ">2009-07-01</Datum_Implantation>
+					<Implantate>Endoprothese Hüfte links</Implantate>
+					<Typenbezeichnung>Durom/Metasul LDHHüftprothesensystem</Typenbezeichnung>
+					<diagnostiziert_indiziert DI_Art="Institution">
+						<DI_Institution>
+							<DI_Institution_Name>Uniklinikum Mannheim</DI_Institution_Name>
+							<DI_Institution_Fachabteilung>Abteilung für Orthopädie</DI_Institution_Fachabteilung>
+							<DI_Institution_Ort>Mannheim</DI_Institution_Ort>
+						</DI_Institution>
+					</diagnostiziert_indiziert>
+				</Implantate>
+				<Implantate>
+					<Datum_Implantation xsi:nil="false ">2010-07-01</Datum_Implantation>
+					<Implantate>Knieprothese rechts</Implantate>
+					<Typenbezeichnung>Bikondyläre Primärprothese</Typenbezeichnung>
+					<diagnostiziert_indiziert DI_Art="Institution">
+						<DI_Institution>
+							<DI_Institution_Name>Uniklinikum Mannheim</DI_Institution_Name>
+							<DI_Institution_Fachabteilung>Abteilung für Orthopädie</DI_Institution_Fachabteilung>
+							<DI_Institution_Ort>Mannheim</DI_Institution_Ort>
+						</DI_Institution>
+					</diagnostiziert_indiziert>
+				</Implantate>
+				<Implantate>
+					<Datum_Implantation xsi:nil="false ">2008-08-01</Datum_Implantation>
+					<Implantate>Künstliche Bandscheibe, LWK 5/6</Implantate>
+					<Typenbezeichnung>Hydra Felx, Raymedica</Typenbezeichnung>
+					<diagnostiziert_indiziert DI_Art="Institution">
+						<DI_Institution>
+							<DI_Institution_Name>Uniklinikum Mannheim</DI_Institution_Name>
+							<DI_Institution_Fachabteilung>Abteilung für Orthopädie</DI_Institution_Fachabteilung>
+							<DI_Institution_Ort>Mannheim</DI_Institution_Ort>
+						</DI_Institution>
+					</diagnostiziert_indiziert>
+				</Implantate>
+				<Implantate>
+					<Datum_Implantation xsi:nil="false ">2006-01-02</Datum_Implantation>
+					<Implantate>Tiefer Hirnstimulator Ncl. Subthalamicus</Implantate>
+					<Typenbezeichnung>Activa RC Neurostimulator</Typenbezeichnung>
+					<diagnostiziert_indiziert DI_Art="Institution">
+						<DI_Institution>
+							<DI_Institution_Name>Charité Universtitätsmedizin Berlin - Standort Benjamin Franklin</DI_Institution_Name>
+							<DI_Institution_Fachabteilung>Abteilung für Neurochirurgie</DI_Institution_Fachabteilung>
+							<DI_Institution_Ort>Berlin</DI_Institution_Ort>
+						</DI_Institution>
+					</diagnostiziert_indiziert>
+				</Implantate>
+				<Implantate>
+					<Datum_Implantation xsi:nil="false ">2003-03-01</Datum_Implantation>
+					<Implantate>Drahtcerclage Sternum nach ACVB</Implantate>
+					<Typenbezeichnung> </Typenbezeichnung>
+					<diagnostiziert_indiziert DI_Art="Institution">
+						<DI_Institution>
+							<DI_Institution_Name>Uniklinikum Mannheim</DI_Institution_Name>
+							<DI_Institution_Fachabteilung>Abteilung für Kardiologie</DI_Institution_Fachabteilung>
+							<DI_Institution_Ort>Mannheim</DI_Institution_Ort>
+						</DI_Institution>
+					</diagnostiziert_indiziert>
+				</Implantate>
+				<Implantate>
+					<Datum_Implantation xsi:nil="false ">2003-03-15</Datum_Implantation>
+					<Implantate>Künstliche Aortenklappe, Bioprothese</Implantate>
+					<Typenbezeichnung> St. Jude Medical Modell SJM Epic 21</Typenbezeichnung>
+					<diagnostiziert_indiziert DI_Art="Institution">
+						<DI_Institution>
+							<DI_Institution_Name>Uniklinikum Mannheim</DI_Institution_Name>
+							<DI_Institution_Fachabteilung>Abteilung für Kardiologie</DI_Institution_Fachabteilung>
+							<DI_Institution_Ort>Mannheim</DI_Institution_Ort>
+						</DI_Institution>
+					</diagnostiziert_indiziert>
+				</Implantate>
+				<Implantate>
+					<Datum_Implantation xsi:nil="false ">2011-10-15</Datum_Implantation>
+					<Implantate>Deckung des Kalottendefekts</Implantate>
+					<Typenbezeichnung> Glaskeramik-Implantat Os temporale rechts</Typenbezeichnung>
+					<diagnostiziert_indiziert DI_Art="Institution">
+						<DI_Institution>
+							<DI_Institution_Name>Klinikum Großharlaching</DI_Institution_Name>
+							<DI_Institution_Fachabteilung>Abteilung für Neurochirurgie</DI_Institution_Fachabteilung>
+							<DI_Institution_Ort>Münchberg</DI_Institution_Ort>
+						</DI_Institution>
+					</diagnostiziert_indiziert>
+				</Implantate>
+				<Kommunikationsstoerungen>
+					<Kommunikationsstoerung>ausgeprägte Schwerhörigkeit (Presbyakusis)</Kommunikationsstoerung>
+					<diagnostiziert_indiziert DI_Art="Arzt">
+						<DI_Arzt>
+							<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+							<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+							<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+						</DI_Arzt>
+					</diagnostiziert_indiziert>
+				</Kommunikationsstoerungen>
+				<Kommunikationsstoerungen>
+					<Kommunikationsstoerung>Demenz mit phasenweiser Desorientierung</Kommunikationsstoerung>
+					<diagnostiziert_indiziert DI_Art="Arzt">
+						<DI_Arzt>
+							<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+							<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+							<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+						</DI_Arzt>
+					</diagnostiziert_indiziert>
+				</Kommunikationsstoerungen>
+				<Kommunikationsstoerungen>
+					<Kommunikationsstoerung>Deutliche Visusminderung (Maculadegeneration)</Kommunikationsstoerung>
+					<diagnostiziert_indiziert DI_Art="Arzt">
+						<DI_Arzt>
+							<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+							<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+							<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+						</DI_Arzt>
+					</diagnostiziert_indiziert>
+				</Kommunikationsstoerungen>
+				<Weglaufgefaehrdung>
+					<Weglaufgefaehrdung>1</Weglaufgefaehrdung>
+					<Weglaufgefaehrdung_Erlaeuterung>Patient neigt bei Wechsel der gewohnten Umgebung zur Desorientiertheit mit ausgeprägter Weglauftendenz (häufig mit erreichbaren Öffentlichen Verkehrsmitteln nach Hause!)</Weglaufgefaehrdung_Erlaeuterung>
+					<diagnostiziert_indiziert DI_Art="Arzt">
+						<DI_Arzt>
+							<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+							<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+							<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+						</DI_Arzt>
+					</diagnostiziert_indiziert>
+				</Weglaufgefaehrdung>
+				<Sonstige_Hinweise>
+					<sonstige_Hinweise>ICD ist über telemedizinische Plattform an Plattform Merlin.net angebunden. Kontakt Dr. Herzsprung Dt. Herzzentrum, München (089 1234 56 789)</sonstige_Hinweise>
+					<diagnostiziert_indiziert DI_Art="Arzt">
+						<DI_Arzt>
+							<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+							<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+							<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+						</DI_Arzt>
+					</diagnostiziert_indiziert>
+				</Sonstige_Hinweise>
+			</Besondere_Hinweise>
+			<Allergien_Unvertraeglichkeiten>
+				<Substanz>a</Substanz>
+				<Reaktion>a</Reaktion>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>a</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>a</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>a</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Allergien_Unvertraeglichkeiten>
+			<Allergien_Unvertraeglichkeiten>
+				<Substanz>b</Substanz>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>b</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>b</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>b</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Allergien_Unvertraeglichkeiten>
+			<Diagnosen>
+				<Diagnose_Code>a</Diagnose_Code>
+				<Diagnose_Text>a</Diagnose_Text>
+				<Diagnose_Zeitpunkt>a</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit>V</Diagnosesicherheit>
+				<Seitenlokalisation>B</Seitenlokalisation>
+				<Diagnose_Code_System DC_Version="String">
+					<Kennzeichen_Code_System>a</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>a</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>a</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>a</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+			<Diagnosen>
+				<Diagnose_Code>a</Diagnose_Code>
+				<Diagnose_Text>a</Diagnose_Text>
+				<Diagnose_Zeitpunkt>a</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit>V</Diagnosesicherheit>
+				<Seitenlokalisation>B</Seitenlokalisation>
+				<Diagnose_Code_System>
+					<Kennzeichen_Code_System>a</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>a</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>a</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>a</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+		</NFD_Befunddaten>
+		<NFD_Medikationseintrag>
+			<diagnostiziert_indiziert DI_Art="Arzt">
+				<DI_Arzt>
+					<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+					<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+					<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+				</DI_Arzt>
+			</diagnostiziert_indiziert>
+			<M p="1" ps="BMP v2.5, Kap 8.3.1, Tab 3" a="a" f="AAA" fs="1.2.276.0.76.3.1.1.5.2.40" fd="a" m="1" d="1"
+			   v="1" h="1" t="a" du="#" dus="1.2.276.0.76.3.1.1.5.2.41" dud="aa" i="a">
+				<W w="a" s="a" gwe="a"/>
+			</M>
+		</NFD_Medikationseintrag>
+		<NFD_Freiwillige_Zusatzinformationen>
+			<Freiwillige_Zusatzinformationen>Blutgruppe AB Rh neg; Knochenmark-Spender (Typisierung 2011 erfolgt / DKMS)</Freiwillige_Zusatzinformationen>
+		</NFD_Freiwillige_Zusatzinformationen>
+	</Notfalldaten>
+	<SignatureArzt>
+		<ds:Signature Id="ID_2">
+			<ds:SignedInfo Id="ID_3">
+				<ds:CanonicalizationMethod Algorithm="http://www.altova.com">text</ds:CanonicalizationMethod>
+				<ds:SignatureMethod Algorithm="http://www.altova.com">
+					<ds:HMACOutputLength>0</ds:HMACOutputLength>
+				</ds:SignatureMethod>
+				<ds:Reference URI="http://www.altova.com" Id="ID_4" Type="http://www.altova.com">
+					<ds:Transforms>
+						<ds:Transform Algorithm="http://www.altova.com">
+							<n1:auto-generated_for_wildcard/>
+						</ds:Transform>
+					</ds:Transforms>
+					<ds:DigestMethod Algorithm="http://www.altova.com">text</ds:DigestMethod>
+					<ds:DigestValue>UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</ds:DigestValue>
+				</ds:Reference>
+			</ds:SignedInfo>
+			<ds:SignatureValue Id="ID_5">UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi</ds:SignatureValue>
+			<ds:KeyInfo Id="ID_6">
+				<ds:KeyName>String</ds:KeyName>
+			</ds:KeyInfo>
+			<ds:Object Encoding="http://www.altova.com" MimeType="String" Id="ID_7">
+				<auto-generated_for_wildcard/>
+			</ds:Object>
+		</ds:Signature>
+	</SignatureArzt>
+</NFD_Document>
